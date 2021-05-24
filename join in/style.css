@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(img.jpg);
+    background-size: cover no-repeat;
+    
+}
+logo{
+    
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 70px;
+    color: blue;
+    margin-left: 40px;
+    cursor: pointer;
+}
+logo a{
+    text-decoration: none;
+}
+logo .com{
+ color: red;
+}
+
+.log-in{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.log-in h2{
+    color: white;
+    float: left;
+    border-bottom: 6px solid green;
+    margin-bottom: 50px;
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.log-in .text-box{
+    border-bottom: 1px solid green;
+    margin: 8px 0px;
+    width: 100%;
+    padding: 8px;
+    overflow: hidden;
+}
+.log-in .text-box i{
+    color: white;
+    
+    
+}
+.log-in .text-box input{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    width: 50%;
+    margin: 0px 10px;
+}
+
+.log-in .btn{
+    width: 100%;
+    color: white;
+    border: 1px solid green;
+    padding: 7px;
+    background: none;
+    font-size: 20px;
+}
+
